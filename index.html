@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tab.css" media="(max-device-width:768px)">
+    <link rel="stylesheet" href="./mobile.css" media="(max-device-width:380px)">
+    <title>Prayer Timings App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav_div">
+            <h1>Prayer Timings by City</h1><br>
+            <form onsubmit="getTime(); return false">
+                <input type="text" id="city" placeholder="Enter Your City">
+            </form>
+        </div>
+        <div class="card">
+            <div class="sub">
+                <div class="left">
+                    <div id="TimeZone"></div>
+                    <div id="HijriDate"></div>
+                    <div id="Fajr"></div>
+                    <div id="Dhuhr"></div>
+                    <div id="Asr"></div>
+                    <div id="Maghrib"></div>
+                    <div id="Isha"></div>
+                    <div id="Sunrise"></div>
+                    <div id="Sunset"></div>
+                    <div id="Midnight"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Calling Axios library to fetch API -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> 
+<script src="./app.js"></script>
+</html>
