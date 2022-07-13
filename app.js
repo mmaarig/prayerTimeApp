@@ -26,18 +26,18 @@ let getTime = () => {
         document.querySelector(`#Isha`).innerText = `Isha: ${api.data.timings.Isha}`;
 
         // Calling Sunrise time
-        document.querySelector(`#Sunrise`).innerText = `Sunrise: ${api.data.timings.Sunrise}`;
+        // document.querySelector(`#Sunrise`).innerText = `Sunrise: ${api.data.timings.Sunrise}`;
 
         // Calling Sunset time
-        document.querySelector(`#Sunset`).innerText = `Sunset: ${api.data.timings.Sunset}`;
+        // document.querySelector(`#Sunset`).innerText = `Sunset: ${api.data.timings.Sunset}`;
 
         // Calling Midnight time
-        document.querySelector(`#Midnight`).innerText = `Midnight: ${api.data.timings.Midnight}`;
+        // document.querySelector(`#Midnight`).innerText = `Midnight: ${api.data.timings.Midnight}`;
 
         // Calling Hijri Date
-        document.querySelector(`#HijriDate`).innerText = `Hijri Date: ${api.data.date.hijri.date}`;
+        // document.querySelector(`#HijriDate`).innerText = `Hijri Date: ${api.data.date.hijri.date}`;
 
         // Calling Time Zone
-        document.querySelector(`#TimeZone`).innerText = `TimeZone: ${api.data.meta.timezone}`;
+        // document.querySelector(`#TimeZone`).innerText = `TimeZone: ${api.data.meta.timezone}`;
     });
 }
